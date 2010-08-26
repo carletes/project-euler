@@ -1,0 +1,6 @@
+*.hi
+*.o
+*~
+*.tix
+.hpc/
+main
