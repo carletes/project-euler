@@ -32,3 +32,9 @@ executable problem-003
   hs-source-dirs:	003
   build-depends:	base, QuickCheck
   default-language:	Haskell2010
+
+executable problem-004
+  main-is:		main.hs
+  hs-source-dirs:	004
+  build-depends:	base, QuickCheck
+  default-language:	Haskell2010
