@@ -50,3 +50,9 @@ executable problem-006
   hs-source-dirs:	006
   build-depends:	base, QuickCheck
   default-language:	Haskell2010
+
+executable problem-007
+  main-is:		main.hs
+  hs-source-dirs:	007
+  build-depends:	base, QuickCheck
+  default-language:	Haskell2010
