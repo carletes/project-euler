@@ -6,11 +6,11 @@
 --
 -- What is the 10 001st prime number?
 
-primes        :: [Integer] -> [Integer]
+primes        :: [Int] -> [Int]
 primes []     = []
 primes (x:xs) = x : primes (filter (\y -> y `mod` x /= 0) xs)
 
-result = head $ drop 10000 $ primes [2 ..]
+result = head $ drop 9999 $ primes [3, 5 ..]
 
 main = do
   putStrLn $ show result
