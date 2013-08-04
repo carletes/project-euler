@@ -54,3 +54,8 @@ executable problem-9
   main-is:		problem-9.hs
   build-depends:	base
   default-language:	Haskell2010
+
+executable problem-10
+  main-is:		problem-10.hs
+  build-depends:	base
+  default-language:	Haskell2010
