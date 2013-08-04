@@ -6,9 +6,7 @@
 --
 -- What is the 10 001st prime number?
 
-primes        :: [Int] -> [Int]
-primes []     = []
-primes (x:xs) = x : primes (filter (\y -> y `mod` x /= 0) xs)
+import Primes
 
 result = head $ drop 9999 $ primes [3, 5 ..]
 
