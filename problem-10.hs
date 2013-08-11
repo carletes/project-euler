@@ -2,9 +2,9 @@
 --
 -- Find the sum of all the primes below two million.
 
-import Primes
+import Numbers
 
-result = sum $ primesUnder 100000
+result = sum $ primesUnder 2000000
 
 main = do
   putStrLn $ show result

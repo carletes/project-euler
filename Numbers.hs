@@ -1,8 +1,13 @@
-module Primes
+module Numbers
 (
-  primes
+  digits
+, primes
 , primesUnder
 ) where
+
+digits        :: String -> [Int]
+digits ""     = []
+digits (x:xs) = (read [x]) : digits xs
 
 primes        :: (Integral a) => [a] -> [a]
 primes []     = []

@@ -6,7 +6,7 @@
 --
 -- What is the 10 001st prime number?
 
-import Primes
+import Numbers
 
 result = head $ drop 9999 $ primes [3, 5 ..]
 
